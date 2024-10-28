@@ -1,0 +1,499 @@
+[
+    {
+        "id": 1,
+        "type": "Planet",
+        "name": "Sun",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/sun/sun_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/sun/sun_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#f39f18"
+        },
+        "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+        }
+    },
+    {
+        "id": 2,
+        "type": "Planet",
+        "name": "Mercury",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/mercury/mercury_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/mercury/mercury_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#404040"
+        },
+        "position": {
+            "x": 1.5,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+        }
+    },
+    {
+        "id": 3,
+        "type": "Planet",
+        "name": "Venus",
+        "orbit": -1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/venus/venus_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/venus/venus_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 2.6,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.25,
+            "y": 0.25,
+            "z": 0.25
+        }
+    },
+    {
+        "id": 4,
+        "type": "Planet",
+        "name": "Earth",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/earth/earth_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/earth/earth_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 3.7,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.37,
+            "y": 0.37,
+            "z": 0.37
+        },
+        "decoration": [
+            {
+                "id": 1,
+                "name": "Selene",
+                "orbit": 1,
+                "geometry": {
+                    "radius": 1,
+                    "widthSegments": 64,
+                    "heightSegments": 64
+                },
+                "textures": [
+                    {
+                        "id": 1,
+                        "name": "./textures/moon/moon_diff.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "./textures/moon/moon_normal.jpg"
+                    }
+                ],
+                "material": {
+                    "color": "#555555"
+                },
+                "position": {
+                    "x": 1.425,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.15,
+                    "y": 0.15,
+                    "z": 0.15
+                }
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Planet",
+        "name": "Mars",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/mars/mars_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/mars/mars_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 4.8,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.3,
+            "y": 0.3,
+            "z": 0.3
+        },
+        "decoration": [
+            {
+                "id": 1,
+                "name": "Phobos",
+                "orbit": 1,
+                "geometry": {
+                    "radius": 1,
+                    "widthSegments": 64,
+                    "heightSegments": 64
+                },
+                "textures": [
+                    {
+                        "id": 1,
+                        "name": "./textures/moon/phobos_diff.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "./textures/moon/phobos_normal.jpg"
+                    }
+                ],
+                "material": {
+                    "color": "#555555"
+                },
+                "position": {
+                    "x": 1.35,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            },
+            {
+                "id": 2,
+                "name": "Deimos",
+                "orbit": 1,
+                "geometry": {
+                    "radius": 1,
+                    "widthSegments": 64,
+                    "heightSegments": 64
+                },
+                "textures": [
+                    {
+                        "id": 1,
+                        "name": "./textures/moon/deimos_diff.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "./textures/moon/deimos_normal.jpg"
+                    }
+                ],
+                "material": {
+                    "color": "#555555"
+                },
+                "position": {
+                    "x": -1.35,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "Planet",
+        "name": "Jupiter",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/jupiter/jupiter_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/jupiter/jupiter_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 6.35,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.75,
+            "y": 0.75,
+            "z": 0.75
+        }
+    },
+    {
+        "id": 7,
+        "type": "Planet",
+        "name": "Saturn",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/saturn/saturn_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/saturn/saturn_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 8.5,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.65
+        },
+        "decoration": [
+            {
+                "id": 1,
+                "name": "Saturn's Ring",
+                "orbit": 1,
+                "geometry": {
+                    "radius": 10,
+                    "tube": 0.75,
+                    "radialSegments": 30,
+                    "tubularSegments": 200
+                },
+                "textures": [],
+                "material": {
+                    "color": "#505050"
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.13,
+                    "y": 0.13,
+                    "z": 0.13
+                }
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "Planet",
+        "name": "Uranus",
+        "orbit": -1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/uranus/uranus_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/uranus/uranus_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 10.7,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.6,
+            "y": 0.6,
+            "z": 0.6
+        },
+        "decoration": [
+            {
+                "id": 1,
+                "name": "Uranus' Ring",
+                "orbit": 1,
+                "geometry": {
+                    "radius": 9,
+                    "tube": 0.4,
+                    "radialSegments": 30,
+                    "tubularSegments": 200
+                },
+                "textures": [],
+                "material": {
+                    "color": "#505050"
+                },
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.13,
+                    "y": 0.13,
+                    "z": 0.13
+                }
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "Planet",
+        "name": "Neptune",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/neptune/neptune_diff.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./textures/neptune/neptune_normal.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 12.9,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.53,
+            "y": 0.53,
+            "z": 0.53
+        }
+    },
+    {
+        "id": 10,
+        "type": "Planet",
+        "name": "Pluto",
+        "orbit": 1,
+        "geometry": {
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 64
+        },
+        "textures": [
+            {
+                "id": 1,
+                "name": "./textures/pluto/pluto_diff.png"
+            },
+            {
+                "id": 2,
+                "name": "./textures/pluto/pluto_normal.png"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 15.1,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+        }
+    }
+]

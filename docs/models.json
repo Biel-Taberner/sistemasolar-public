@@ -1,0 +1,64 @@
+[
+    {
+        "id": 6,
+        "type": "GLTFModel",
+        "name": "Zombie_Mario",
+        "orbit": 1,
+        "textures": [
+            {
+                "id": 1,
+                "name": "./models/Zombie_Mario/Textures/HeadTexture.jpg"
+            },
+            {
+                "id": 2,
+                "name": "./models/Zombie_Mario/Textures/HeadTexture_nrm.jpg"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 6.35,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.035,
+            "y": 0.035,
+            "z": 0.035
+        },
+        "mesh": "./models/Zombie_Mario/Meshes/Zombie_Mario.gltf",
+        "animationIndex": 0
+    },
+    {
+        "id": 3,
+        "type": "GLTFModel",
+        "name": "Pumpkin",
+        "orbit": -1,
+        "textures": [
+            {
+                "id": 1,
+                "name": "./models/Pumpkin/Textures/e0005_00.png"
+            },
+            {
+                "id": 2,
+                "name": "./models/Pumpkin/Textures/e0005_00_normal.png"
+            }
+        ],
+        "material": {
+            "color": "#505050"
+        },
+        "position": {
+            "x": 2.6,
+            "y": 0,
+            "z": 0
+        },
+        "scale": {
+            "x": 0.05,
+            "y": 0.05,
+            "z": 0.05
+        },
+        "mesh": "./models/Pumpkin/Meshes/Pumpkin.gltf",
+        "animationIndex": 1
+    }
+]
