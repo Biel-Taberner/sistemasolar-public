@@ -12,11 +12,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/sun/sun_diff.jpg"
+                "name": "/textures/sun/sun_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/sun/sun_normal.jpg"
+                "name": "/textures/sun/sun_normal.jpg"
             }
         ],
         "material": {
@@ -46,11 +46,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/mercury/mercury_diff.jpg"
+                "name": "/textures/mercury/mercury_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/mercury/mercury_normal.jpg"
+                "name": "/textures/mercury/mercury_normal.jpg"
             }
         ],
         "material": {
@@ -80,11 +80,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/venus/venus_diff.jpg"
+                "name": "/textures/venus/venus_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/venus/venus_normal.jpg"
+                "name": "/textures/venus/venus_normal.jpg"
             }
         ],
         "material": {
@@ -114,11 +114,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/earth/earth_diff.jpg"
+                "name": "/textures/earth/earth_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/earth/earth_normal.jpg"
+                "name": "/textures/earth/earth_normal.jpg"
             }
         ],
         "material": {
@@ -147,11 +147,11 @@
                 "textures": [
                     {
                         "id": 1,
-                        "name": "./textures/moon/moon_diff.jpg"
+                        "name": "/textures/moon/moon_diff.jpg"
                     },
                     {
                         "id": 2,
-                        "name": "./textures/moon/moon_normal.jpg"
+                        "name": "/textures/moon/moon_normal.jpg"
                     }
                 ],
                 "material": {
@@ -183,11 +183,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/mars/mars_diff.jpg"
+                "name": "/textures/mars/mars_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/mars/mars_normal.jpg"
+                "name": "/textures/mars/mars_normal.jpg"
             }
         ],
         "material": {
@@ -216,11 +216,11 @@
                 "textures": [
                     {
                         "id": 1,
-                        "name": "./textures/moon/phobos_diff.jpg"
+                        "name": "/textures/moon/phobos_diff.jpg"
                     },
                     {
                         "id": 2,
-                        "name": "./textures/moon/phobos_normal.jpg"
+                        "name": "/textures/moon/phobos_normal.jpg"
                     }
                 ],
                 "material": {
@@ -249,11 +249,11 @@
                 "textures": [
                     {
                         "id": 1,
-                        "name": "./textures/moon/deimos_diff.jpg"
+                        "name": "/textures/moon/deimos_diff.jpg"
                     },
                     {
                         "id": 2,
-                        "name": "./textures/moon/deimos_normal.jpg"
+                        "name": "/textures/moon/deimos_normal.jpg"
                     }
                 ],
                 "material": {
@@ -285,11 +285,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/jupiter/jupiter_diff.jpg"
+                "name": "/textures/jupiter/jupiter_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/jupiter/jupiter_normal.jpg"
+                "name": "/textures/jupiter/jupiter_normal.jpg"
             }
         ],
         "material": {
@@ -319,11 +319,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/saturn/saturn_diff.jpg"
+                "name": "/textures/saturn/saturn_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/saturn/saturn_normal.jpg"
+                "name": "/textures/saturn/saturn_normal.jpg"
             }
         ],
         "material": {
@@ -380,11 +380,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/uranus/uranus_diff.jpg"
+                "name": "/textures/uranus/uranus_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/uranus/uranus_normal.jpg"
+                "name": "/textures/uranus/uranus_normal.jpg"
             }
         ],
         "material": {
@@ -441,11 +441,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/neptune/neptune_diff.jpg"
+                "name": "/textures/neptune/neptune_diff.jpg"
             },
             {
                 "id": 2,
-                "name": "./textures/neptune/neptune_normal.jpg"
+                "name": "/textures/neptune/neptune_normal.jpg"
             }
         ],
         "material": {
@@ -475,11 +475,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./textures/pluto/pluto_diff.png"
+                "name": "/textures/pluto/pluto_diff.png"
             },
             {
                 "id": 2,
-                "name": "./textures/pluto/pluto_normal.png"
+                "name": "/textures/pluto/pluto_normal.png"
             }
         ],
         "material": {

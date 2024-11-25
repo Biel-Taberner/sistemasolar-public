@@ -7,11 +7,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./models/Zombie_Mario/Textures/HeadTexture.jpg"
+                "name": "/models/Zombie_Mario/Textures/HeadTexture.jpg"
             },
             {
                 "id": 2,
-                "name": "./models/Zombie_Mario/Textures/HeadTexture_nrm.jpg"
+                "name": "/models/Zombie_Mario/Textures/HeadTexture_nrm.jpg"
             }
         ],
         "material": {
@@ -27,7 +27,7 @@
             "y": 0.035,
             "z": 0.035
         },
-        "mesh": "./models/Zombie_Mario/Meshes/Zombie_Mario.gltf",
+        "mesh": "/models/Zombie_Mario/Meshes/Zombie_Mario.gltf",
         "animationIndex": 0
     },
     {
@@ -38,11 +38,11 @@
         "textures": [
             {
                 "id": 1,
-                "name": "./models/Pumpkin/Textures/e0005_00.png"
+                "name": "/models/Pumpkin/Textures/e0005_00.png"
             },
             {
                 "id": 2,
-                "name": "./models/Pumpkin/Textures/e0005_00_normal.png"
+                "name": "/models/Pumpkin/Textures/e0005_00_normal.png"
             }
         ],
         "material": {
@@ -58,7 +58,7 @@
             "y": 0.05,
             "z": 0.05
         },
-        "mesh": "./models/Pumpkin/Meshes/Pumpkin.gltf",
+        "mesh": "/models/Pumpkin/Meshes/Pumpkin.gltf",
         "animationIndex": 1
     }
 ]
